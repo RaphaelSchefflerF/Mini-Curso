@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+#div{
+    background-color: purple;
+}
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: aqua;
+}
+#div3{
+    background-color: greenyellow;
+}
+#div4{
+    background-color: yellow;
+}
+#div5{
+    background-color:orange;
+}
+#div6{
+    background-color: red;
+}
+
+#flexivel{
+    background-color: rgba(0,157,52,255);
+    align-items: center;
+}
