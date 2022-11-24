@@ -1,0 +1,87 @@
+/* Variaveis para breakpoints no CSS 
+
+xs: 0;
+sm: 576px;
+md: 768px;
+lg: 992px;
+xl: 1200px;
+xxl: 1400px;
+
+*/
+
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+section{
+    margin-bottom: 1rem;;
+}
+
+a:hover{
+    color: red !important;
+    transition: color 0.6s !important;
+}
+
+footer{
+    background-color: aqua;
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: rgb(224, 224, 224)
+}
+
+#fundo-img{
+    background-image: url(https://picsum.photos/id/16/1600/300);
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 40vh;
+    
+}
+
+#pessoa{
+    position: relative;
+    bottom: 4.5rem;
+}
+
+#pessoa .img-thumbnail {
+    height: 15rem;
+    width: 15rem;
+}
+
+@media screen and (max-width: 768px){
+    #pessoa .img-thumbnail {
+        height: 8rem;
+        width: 8rem; 
+    }
+}
+
+#capa-blog {
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2022/05/GettyImages-1321350844.jpg?resize=916%2C515&quality=50&strip=all");
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 60vh !important;
+}
+
+.container-capa {
+    height: 50vh !important;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.justifica-texto{
+    text-align: justify;
+}
+
+.sombra-texto{
+    text-shadow: 0px 0px 14px black
+}
+
+.navbar{
+    background-color: rgb(224, 224, 224) !important;
+}
+
+
+
